@@ -50,8 +50,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    val text by viewModel.text.collectAsState()
-                    SplashScreen(text)
+                    val timeOfDay by viewModel.text.collectAsState()
+                    SplashScreen(timeOfDay.asUiText().asString())
                 }
             }
         }

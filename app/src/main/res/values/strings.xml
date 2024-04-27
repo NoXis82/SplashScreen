@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SplashScreen</string>
+    <string name="morning">Доброе утро</string>
+    <string name="day">Добрый день</string>
+    <string name="evening">Добрый вечер</string>
+    <string name="night">Доброй ночи</string>
 </resources>
